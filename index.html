@@ -21,13 +21,13 @@
 	 
 </head>
 	 <body>
-			<nav class="navbar navbar-inverse navbar-fixed-top" >
-					<div class="topnav">
+			<nav class="topnav" id = "myTopnav" style="position: fixed;top: 0; width: 100%;">
+					<div>
 							<a class="active" style="width: 120px;" href="https://thekushalghosh.github.io">thekushalghosh</a>
 							
 
-							<a style="margin-left: 10%;" href="#about">About Me</a>
-							<a href = "#" id="myBtn">Education</a>
+							<a style="text-align: center;" href="#about">About Me</a>
+							<a style="text-align: center;" href = "#" id="myBtn">Education</a>
 							<div id="myModal" class="modal">
 
 									<div class="modal-content">
@@ -106,9 +106,9 @@
 									</div>
 								  
 								  </div>
-							<a href="#projects">Projects</a>
-							<a href="#footer">Contact Me</a>
-							<a href="#" id="myBtns">Downloads</a>
+							<a class"projproj" style="text-align: center;" href="#projects">Projects</a>
+							<a style="text-align: center;" href="#contact">Contact Me</a>
+							<a style="text-align: center;" href="#" id="myBtns">Downloads</a>
 								<div id="myModals" class="modals">
 
 										<div class="modals-content">
@@ -131,7 +131,9 @@
 											</div>
 										</div>
 										</div>
+										<a style="font-size:15px;" id = "NavIcon" class="icon" onclick="myFunction()">&#9776;</a>
 				  </nav>
+				  
 				  <br>
 				  <br>
 				  <br>
@@ -145,12 +147,12 @@
 				</div>
 
 
-					<br>
-					<br>
-
+					
 
 					<div id = "about">
-
+							<br>
+							<br>
+		
 
 					<div align="center" style="font-size: 5em;"> 
 							Kushal Ghosh
@@ -216,6 +218,10 @@
 							
 					</div>
 					<div class="projects" id = "projects"></div>
+					<br>
+							<br>
+							<br>
+							<br>
 					<div align = "center" style="font-family: Arial, Helvetica, sans-serif; font-weight: bold;
 					font-size: 3.5em;">
 						PROJECTS
@@ -358,14 +364,16 @@
 							</a>
 
 								
-								<br>
-								<br>
+							
 						
 					</div>
 					
 				
 				</p>
 			</div>
+			<div id = "contact">
+			<br>
+			<br>
 				<br>
 				<br>
 
@@ -375,7 +383,8 @@
 
 
 
-			  <footer id="footer">
+			  <footer align = "bottom" id="footer">
+					<br>
 				
 							<div class="col-md-3">
 								<h1 style="text-align: center;">Contact Me :-</h1>
@@ -383,13 +392,11 @@
 
 
 							<ul class="social-network social-circle">
-								<br>
-								<br>
 
 								<div align = "center">
 
 
-								 <li style="position: relative;"><a href="https://www.facebook.com/thekushalghosh" target="_blank" 
+								 <li><a href="https://www.facebook.com/thekushalghosh" target="_blank" 
 									id = "scnw" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 
 								<li><a href="https://www.linkedin.com/in/thekushalghosh" target="_blank" 
@@ -399,7 +406,7 @@
 								 <li><a href="https://www.instagram.com/thekushalghosh" target="_blank" 
 									id = "scnw" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
 								
-								 <li style="position: relative;"><a href="https://www.github.com/thekushalghosh" target="_blank" 
+								 <li><a href="https://www.github.com/thekushalghosh" target="_blank" 
 									id = "scnw" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
 
 							 <li><a href="https://www.snapchat.com/add/kushal.ghosh" target="_blank" 
@@ -413,8 +420,6 @@
 										
 									</div>
 
-								<br>
-								<br>
 								
 								<ul class="comp-code">
 										<div align = "center" style="margin-left: -118px;">
@@ -470,9 +475,8 @@
 								</a></li>
 										</div>
 							</ul>
+							<br>
 						
-								<br>
-								<br>
 								<div id = "numbermail" style="text-align: center;">
 								<div style="text-align: center;">
 								 <li>+91 9835363536</li>
@@ -483,23 +487,23 @@
 
 								</div>
 
-								<br>
 
 
 								</ul>				
 							</div>
-							<br>
 						<div class="row">
 							<div class="col-md-12 copy">
 								<p class="text-center">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&copy Copyright 2020 &nbsp&nbsp &nbsp&nbsp Kushal Ghosh (thekushalghosh) &nbsp&nbsp&nbsp&nbspAll rights reserved.</p>
+							<br>
+							<br>
 							</div>
 						</div>
 						<a href="#top" style="color: white" title="Go to Top">
 							<img  id = "myBtntop" src = "https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronUpCircle-512.png">
 					</a>
 
-
 			  </footer>
+			</div>
 			</div>
 			<script src="script.js"></script>
 		</body>
