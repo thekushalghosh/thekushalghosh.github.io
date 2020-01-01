@@ -1,0 +1,467 @@
+html, body {
+  overflow-x: hidden;
+  overflow-y:scroll;
+  scroll-behavior: smooth;
+
+}
+body {
+  position: relative
+}
+body {
+    background-image: 
+    url("https://wallpapercave.com/wp/XHHWWGh.jpg"),
+    url("https://i.pinimg.com/originals/96/42/1a/96421a97b83034f52c410befe7cefa20.jpg"),
+    url("https://img.freepik.com/free-photo/laptop-white-screen-with-designer-workplace-copy-space_67155-1106.jpg?size=626&ext=jpg");
+    background-position: 
+      left 0 top 0px,
+      left 0 top 40em,
+      left 0 top 78em;
+    background-repeat: no-repeat;
+    background-color:
+     rgba(255,255,255,0.86);
+    background-blend-mode: lighten;
+    background-size:
+      100% 40em,
+      100% 38em,
+      100% 68em;
+ }
+    #imagemain {
+      border-radius: 50%;
+      border: 1px solid rgb(44, 77, 77);
+      padding: 10px;
+      position: relative;
+      top: -50px;
+      width: 35%;
+      height: 15%;
+          transition: all 0.4s ease;
+
+  }
+  
+  #imagemain:hover {
+    border-radius: 50%;
+    border: 1px solid rgb(44, 77, 77);
+    padding: 10px;
+    position: relative;
+    top: -50px;
+    width: 40%;
+    height: 20%;
+  }
+
+  #footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 608px;      
+  }
+
+  #myBtntop {
+    position: fixed;
+    bottom: 20px;
+    float: right;
+    right: 4%;
+    width: 2em;
+    height: 2em;
+    border-color: rgba(100, 100, 100, 0.5);
+    background-color: rgb(100,100,100,0.5);
+    border-radius: 18px;
+    transition: all 0.2s ease;
+
+
+
+}
+#myBtntop:hover {
+  position: fixed;
+    bottom: 18px;
+    float: right;
+    right: 3.8%;
+    background-color: rgba(161, 161, 161, 0.5);
+    width: 2.4em;
+    height: 2.4em;
+    border-radius: 18px;
+
+    
+
+}
+
+.fa fa-arrow-circle-o-up{
+  color: white;
+}
+#resume{
+  width: 7.7em;
+  height: 3.5em;
+  background-color: #44BCDD;
+  border-radius: 10px;
+}
+
+  div.sticky {
+    position: fixed;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(34, 38, 95);
+    transition:  0.4s ease;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.4s ease;
+
+    
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(60, 135, 149);
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: rgb(75, 138, 59);
+    color: white;
+  }
+  .topnav a.active:hover{
+    background-color: rgb(96, 172, 86);
+    color: white;
+  }
+  #rectangle {
+    width: 20%;
+    height: 6em;
+    background: green;
+    float: left;
+    border-radius: 10px;
+  }
+
+
+  .boxed {
+    border: 1px solid green ;
+    float: right;
+    width: 77%;
+    height: 6em;
+    background-color: #81d4d4;
+    border-radius: 10px;
+  }
+
+
+
+  #projimg {
+    width: 6em;
+    height: 6em;
+    float: left;
+  }
+  #proj {
+    width: 40em;
+    height: 6em;
+    background: rgb(75, 142, 149);
+    transition: all 0.4s ease;
+    border-radius: 10px;
+
+  }
+
+  #proj:hover{
+    width: 42em;
+    height: 7.7em;
+    background: rgb(75, 142, 77);
+    mouseover-transition: all 1s ease;
+    mouseout-transition: all 1s ease;   
+
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(54, 41, 41, 0.8); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+
+
+
+
+  .modals {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(54, 41, 41, 0.8); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modals-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .closes {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closes:hover,
+  .closes:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modals-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modals-body {padding: 2px 16px;}
+  
+  .modals-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+
+      #cf{
+          width: 142px;
+          height: 40px;
+          transition: all 0.4s ease;
+
+      }
+
+      #cc{
+        width: 135px;
+        height: 50px;
+        transition: all 0.4s ease;
+
+    }
+    #hr{
+      width: 142px;
+      height: 45px;
+      transition: all 0.4s ease;
+
+  }
+
+  #he{
+    width: 128px;
+    height: 45px;
+    transition: all 0.4s ease;
+
+}
+
+
+    .fa fa-facebook{
+      top: 20%;
+      left: 50%;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+      }
+      
+      #content-wrap {
+        padding-bottom: 2.5rem;   
+      }
+
+
+
+  .text-center {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .comp-code{
+    left: 0%;
+  }
+  
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 12px;
+    
+  }
+  
+  
+  
+  .social-network #scnw.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network #scnw.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  .social-network #scnw.icoInstagram:hover {
+    background-color: rgb(204, 22, 159);
+  }
+  
+  .social-network #scnw.icoGithub:hover {
+    background-color: #030708;
+  }
+  .social-network #scnw.icoSnapchat:hover {
+    background-color: rgb(217, 255, 0);
+  }
+  
+  .social-network #scnw.icoTwitter:hover {
+    background-color: #00aaff;
+  }
+
+  .social-network #scnw.icoQuora:hover {
+    background-color: #d61212;
+  }
+  
+  .social-network #scnw.icoFacebook:hover i,
+  .social-network #scnw.icoLinkedin:hover i,
+  .social-network #scnw.icoInstagram:hover i,
+  .social-network #scnw.icoGithub:hover i,
+  .social-network #scnw.icoSnapchat:hover i,
+  .social-network #scnw.icoTwitter:hover i,
+  .social-network #scnw.icoQuora:hover i{
+    color: #fff;
+  }
+  img#cf:hover,
+  img#cc:hover,
+  img#hr:hover,
+  img#he:hover{
+    opacity: 0.77;
+
+  }
+  
+  .social-network #scnw.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  
+
+  .social-circle i {
+    color: #595959;
+    transition: all 0.8s ease;
+
+  }
+  
+  .social-network #scnw {
+    background-color: #F9F9F9;
+  }
