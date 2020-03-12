@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            To-Do App
+        </title>
+        <link rel = "icon" href =  
+"https://imgcdn.scootsy.com/media/itemdetails/2017/
+Aug/notepad-make-things-happen_350298_1501762813_1.jpg" 
+        type = "image/x-icon">
+        <link rel="stylesheet" type="text/css" href="todo_style.css">
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="intro col-12">
+            <h1>To-Do App</h1>
+            <div>
+              <div class="border1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <input type="text" class="form-control" id="filter" placeholder="Search for an existing task">
+      </div>
+      <br>
+      <br>
+    
+        <div class="row">
+          <div class="helpText col-12">
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-12">
+            <input id="userInput" type="text" placeholder="Add a new task here" maxlength="27">
+            &nbsp&nbsp
+            <button id="enter">Add</button>
+          </div>
+        </div>
+        <br>
+        Your Tasks
+        <div class="row">
+          <div class="listItems col-12">
+            <ul id = "items" class="col-12 offset-0 col-sm-8 offset-sm-2">
+            </ul>
+          </div>
+        </div>
+    
+      </div>
+      <script type="text/javascript" src="todo_script.js"></script>
+    </body>
+</html>

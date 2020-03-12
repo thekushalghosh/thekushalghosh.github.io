@@ -1,0 +1,100 @@
+body {
+	background-image: url("https://wallpapercave.com/wp/XHHWWGh.jpg");
+    text-align: center;
+    background-color: rgba(255,255,255,0.35);
+    background-blend-mode: lighten;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+
+
+
+#enter {
+    border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: rgb(18, 19, 19);
+	background-color: rgb(27, 230, 20);
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+    font-weight: normal;
+    min-height: 2em;
+}
+
+#enter:hover{
+	background-color: rgb(180, 241, 80);
+	color: rgb(22, 24, 22);
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: rgb(21, 153, 177);
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #2f4746;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+    min-width: 50%;
+    height: 2em;
+	padding: 5px;
+	border: none;
+}
+
+.done {
+	background: rgb(223, 81, 81) !important;
+	color: rgb(137, 0, 0);
+	text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
