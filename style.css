@@ -175,6 +175,27 @@ body {
 
 
 
+
+
+.cricket{
+  background-color: #24c9e6;
+  width: 600px;
+  height: 100px;
+  font-size: 36px;
+  border-radius: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+.cricket:hover{
+  background-color: #65e2f8;
+  width: 600px;
+  height: 100px;
+  font-size: 36px;
+  border-radius: 20px;
+}
+
+
+
   #rectangle {
     width: 20%;
     height: 6em;
@@ -495,15 +516,12 @@ body {
     line-height: 40px;
     text-align: center;
   }
-  
-  
 
   .social-circle i {
     color: #595959;
     transition: all 0.8s ease;
 
-  }
-  
+}
   .social-network #scnw {
     background-color: #F9F9F9;
   }
