@@ -1,0 +1,231 @@
+html, body {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+  
+  }
+  body {
+	position: relative
+  }
+body {
+	background-image: url("Picture.jpg");
+    background-color: rgba(255,255,255,0.68);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.heading{
+	text-align: center;
+	font-size: 2.4em;
+	font-family: 'Pacifico', cursive;
+}
+
+
+.row{
+  clear:both;
+  margin-left: 24em;
+}
+
+.column{
+  width: 20em;
+  float: left;
+}
+li{
+	font-size: 1.2em;
+}
+@media only screen and (max-width: 500px) {
+	li{
+		font-size: 1.06em;
+	}
+	.row{
+		clear:both;
+		margin-left: -1.2em;
+	}
+	
+	.column{
+		width: 12.9em;
+		float: left;
+	}
+	h1{
+		margin-left: 20px;
+		font-size: 20px;
+	}
+}
+
+
+
+.homebutton {
+	height: 50px;
+    background-color: rgb(75, 138, 59);
+	color: white;
+	border-radius: 10px;
+  }
+.homebutton:hover{
+    background-color: rgb(96, 172, 86);
+    color: white;
+  }
+
+
+
+#cf{
+	width: 142px;
+	height: 40px;
+	transition: all 0.4s ease;
+
+}
+
+#cc{
+  width: 135px;
+  height: 50px;
+  transition: all 0.4s ease;
+
+}
+#hr{
+width: 142px;
+height: 45px;
+transition: all 0.4s ease;
+
+}
+
+#he{
+width: 128px;
+height: 45px;
+transition: all 0.4s ease;
+
+}
+
+
+.fa fa-facebook{
+top: 20%;
+left: 50%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;   
+}
+
+
+
+.text-center {
+font-size: 14px;
+text-align: center;
+}
+
+
+
+
+ul.social-network {
+list-style: none;
+display: inline;
+padding: 0;
+}
+
+ul.social-network li {
+display: inline;
+margin: 12px;
+
+}
+
+
+
+.social-network #scnw.icoFacebook:hover {
+background-color: #3B5998;
+}
+
+.social-network #scnw.icoLinkedin:hover {
+background-color: #007bb7;
+}
+.social-network #scnw.icoInstagram:hover {
+background-color: rgb(204, 22, 159);
+}
+
+.social-network #scnw.icoGithub:hover {
+background-color: #030708;
+}
+.social-network #scnw.icoSnapchat:hover {
+background-color: rgb(217, 255, 0);
+}
+
+.social-network #scnw.icoTwitter:hover {
+background-color: #00aaff;
+}
+
+.social-network #scnw.icoQuora:hover {
+background-color: #d61212;
+}
+
+.social-network #scnw.icoFacebook:hover i,
+.social-network #scnw.icoLinkedin:hover i,
+.social-network #scnw.icoInstagram:hover i,
+.social-network #scnw.icoGithub:hover i,
+.social-network #scnw.icoSnapchat:hover i,
+.social-network #scnw.icoTwitter:hover i,
+.social-network #scnw.icoQuora:hover i{
+color: #fff;
+}
+img#cf:hover,
+img#cc:hover,
+img#hr:hover,
+img#he:hover{
+opacity: 0.77;
+
+}
+
+.social-network #scnw.socialIcon:hover,
+.socialHoverClass {
+color: #44BCDD;
+}
+
+.social-circle li a {
+display: inline-block;
+position: relative;
+margin: 0 auto 0 auto;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+text-align: center;
+width: 40px;
+height: 40px;
+font-size: 18px;
+}
+
+.social-circle li i {
+margin: 0;
+line-height: 40px;
+text-align: center;
+}
+
+
+
+.social-circle i {
+color: #595959;
+transition: all 0.8s ease;
+
+}
+
+.social-network #scnw {
+background-color: #F9F9F9;
+}
+
+
+#footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 554px;      
+  }
+
+
+  .fa fa-arrow-circle-o-up{
+	color: white;
+  }
