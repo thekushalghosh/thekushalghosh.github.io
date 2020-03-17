@@ -184,14 +184,19 @@ body {
   font-size: 24px;
   border-radius: 20px;
   font-family: 'Pacifico', cursive;
+  transition: all 0.4s ease;
+
 }
 
 .cricket:hover{
   background-color: #65e2f8;
-  width: 400px;
-  height: 100px;
+  width: 435px;
+  height: 120px;
   font-size: 24px;
   border-radius: 20px;
+  mouseover-transition: all 1s ease;
+  mouseout-transition: all 1s ease;   
+
 }
 
 
