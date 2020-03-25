@@ -110,7 +110,8 @@ left: 50%;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;   
+  padding-bottom: 2.5rem;
+  padding-top: 0em;
 }
 
 
@@ -128,12 +129,13 @@ list-style: none;
 display: inline;
 padding: 0;
 }
-
 ul.social-network li {
 display: inline;
 margin: 12px;
 
 }
+
+
 
 
 
@@ -197,15 +199,11 @@ width: 40px;
 height: 40px;
 font-size: 18px;
 }
-
 .social-circle li i {
 margin: 0;
 line-height: 40px;
 text-align: center;
 }
-
-
-
 .social-circle i {
 color: #595959;
 transition: all 0.8s ease;
@@ -213,6 +211,8 @@ transition: all 0.8s ease;
 .social-network #scnw {
 background-color: #F9F9F9;
 }
+
+
 #footer {
     background: #16222A;
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
