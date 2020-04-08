@@ -481,13 +481,18 @@ body {
     background-color: #d61212;
   }
   
+  .social-network #scnw.icoYoutube:hover {
+    background-color: #d61212;
+  }
+  
   .social-network #scnw.icoFacebook:hover i,
   .social-network #scnw.icoLinkedin:hover i,
   .social-network #scnw.icoInstagram:hover i,
   .social-network #scnw.icoGithub:hover i,
   .social-network #scnw.icoSnapchat:hover i,
   .social-network #scnw.icoTwitter:hover i,
-  .social-network #scnw.icoQuora:hover i{
+  .social-network #scnw.icoQuora:hover i,
+  .social-network #scnw.icoYoutube:hover i{
     color: #fff;
   }
   img#cf:hover,
@@ -521,11 +526,10 @@ body {
     line-height: 40px;
     text-align: center;
   }
-
   .social-circle i {
     color: #595959;
     transition: all 0.8s ease;
-
+    
 }
   .social-network #scnw {
     background-color: #F9F9F9;
