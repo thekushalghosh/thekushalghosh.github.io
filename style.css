@@ -221,28 +221,6 @@ body {
 
 
 
-  #projimg {
-    width: 6em;
-    height: 6em;
-    float: left;
-  }
-  #proj {
-    width: 40em;
-    height: 6em;
-    background: rgb(75, 142, 149);
-    transition: all 0.4s ease;
-    border-radius: 10px;
-
-  }
-
-  #proj:hover{
-    width: 42em;
-    height: 7.7em;
-    background: rgb(75, 142, 77);
-    mouseover-transition: all 1s ease;
-    mouseout-transition: all 1s ease;   
-
-  }
 
   .modal {
     display: none; /* Hidden by default */
@@ -533,4 +511,62 @@ body {
 }
   .social-network #scnw {
     background-color: #F9F9F9;
+  }
+
+  #projimg {
+    width: 6em;
+    height: 6em;
+    float: left;
+  }
+  #proj {
+    width: 28em;
+    height: 6em;
+    background: rgb(75, 142, 149);
+    transition: all 0.4s ease;
+    border-radius: 10px;
+
+  }
+
+  #proj:hover{
+    width: 30.5em;
+    height: 7.7em;
+    background: rgb(75, 142, 77);
+    mouseover-transition: all 1s ease;
+    mouseout-transition: all 1s ease;   
+
+  }
+
+
+  #project1{
+    margin-top: -8em;
+    margin-left: 28em;
+  }
+
+
+  @media screen and (min-width: 600px)
+  {
+    #project1{
+      margin-top: 0em;
+      margin-left: 10em;
+    }
+    #project2{
+      margin-top: -8.2em;
+      margin-left: 36em;
+    }
+    #project3{
+      margin-top: 2em;
+      margin-left: -36em;
+    }
+    #project4{
+      margin-top: -8.2em;
+      margin-left: 36em;
+    }
+    #project5{
+      margin-top: 0em;
+      margin-left: -36em;
+    }
+    #project6{
+      margin-top: -8.2em;
+      margin-left: 36em;
+    }
   }
