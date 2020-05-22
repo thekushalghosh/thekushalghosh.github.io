@@ -9,7 +9,7 @@ body {
     background-image: 
     url("https://wallpapercave.com/wp/XHHWWGh.jpg"),
     url("https://i.pinimg.com/originals/96/42/1a/96421a97b83034f52c410befe7cefa20.jpg"),
-    url("https://img.freepik.com/free-photo/laptop-white-screen-with-designer-workplace-copy-space_67155-1106.jpg?size=626&ext=jpg");
+    url("https://c0.wallpaperflare.com/preview/803/366/539/screen-code-laptop-write.jpg");
     background-position: 
       left 0 top 0px,
       left 0 top 40em,
@@ -514,6 +514,7 @@ body {
   }
 
   #projimg {
+    margin-left: 4%;
     width: 6em;
     height: 6em;
     float: left;
@@ -521,11 +522,14 @@ body {
   #proj {
     width: 28em;
     height: 6em;
-    background: rgb(75, 142, 149);
+    background: rgb(69, 109, 114);
     transition: all 0.4s ease;
     border-radius: 10px;
 
   }
+
+
+
 
   #proj:hover{
     width: 30.5em;
@@ -537,17 +541,13 @@ body {
   }
 
 
-  #project1{
-    margin-top: -8em;
-    margin-left: 28em;
-  }
 
 
   @media screen and (min-width: 600px)
   {
     #project1{
-      margin-top: 0em;
-      margin-left: 10em;
+      margin-top: 2em;
+      margin-left: -36em;
     }
     #project2{
       margin-top: -8.2em;
