@@ -522,7 +522,7 @@ body {
   #proj {
     width: 28em;
     height: 6em;
-    background: rgb(69, 109, 114);
+    background: rgb(77, 150, 158);
     transition: all 0.4s ease;
     border-radius: 10px;
 
@@ -534,7 +534,7 @@ body {
   #proj:hover{
     width: 30.5em;
     height: 7.7em;
-    background: rgb(75, 142, 77);
+    background: rgb(74, 172, 77);
     mouseover-transition: all 1s ease;
     mouseout-transition: all 1s ease;   
 
