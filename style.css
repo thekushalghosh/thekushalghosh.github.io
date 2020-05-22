@@ -7,10 +7,10 @@ body {
 }
 body {
     background-image: 
-    url("paint.jpg"),
-    url("grass.jpg"),
-    url("code.jpg"),
-    url("code.jpg");
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/paint.jpg"),
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/grass.jpg"),
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg"),
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg");
     background-position: 
       left 0 top 0px,
       left 0 top 40em,
@@ -632,4 +632,4 @@ height: 20%;
       margin-top: -8.2em;
       margin-left: 36em;
     }
-  }
+  }sd
