@@ -7,43 +7,46 @@ body {
 }
 body {
     background-image: 
-    url("https://wallpapercave.com/wp/XHHWWGh.jpg"),
-    url("https://i.pinimg.com/originals/96/42/1a/96421a97b83034f52c410befe7cefa20.jpg"),
-    url("https://c0.wallpaperflare.com/preview/803/366/539/screen-code-laptop-write.jpg");
+    url("paint.jpg"),
+    url("grass.jpg"),
+    url("code.jpg"),
+    url("code.jpg");
     background-position: 
       left 0 top 0px,
       left 0 top 40em,
-      left 0 top 78em;
+      left 0 top 78em,
+      left 0 top 140em;
     background-repeat: no-repeat;
     background-color:
-     rgba(255,255,255,0.86);
+     rgba(255,255,255,0.06);
     background-blend-mode: lighten;
     background-size:
       100% 40em,
       100% 38em,
-      100% 68em;
+      100% 68em,
+      100% 86em;
  }
-    #imagemain {
-      border-radius: 50%;
-      border: 1px solid rgb(44, 77, 77);
-      padding: 10px;
-      /* position: relative; */
-      top: -50px;
-      width: 35%;
-      height: 15%;
-          transition: all 0.4s ease;
-  }
-  
+ #imagemain {
+  border-radius: 50%;
+  border: 1px solid rgb(44, 77, 77);
+  padding: 10px;
+  /* position: relative; */
+  top: -50px;
+  width: 35%;
+  height: 15%;
+      transition: all 0.4s ease;
+}
 
-  #imagemain:hover {
-    border-radius: 50%;
-    border: 1px solid rgb(44, 77, 77);
-    padding: 10px;
-    /* position: relative; */
-    top: -50px;
-    width: 40%;
-    height: 20%;
-  }
+
+#imagemain:hover {
+border-radius: 50%;
+border: 1px solid rgb(44, 77, 77);
+padding: 10px;
+/* position: relative; */
+top: -50px;
+width: 40%;
+height: 20%;
+}
 
   #footer {
     background: #16222A;
@@ -514,7 +517,7 @@ body {
   }
 
   #projimg {
-    margin-left: 4%;
+    margin-left: 2%;
     width: 6em;
     height: 6em;
     float: left;
@@ -522,7 +525,7 @@ body {
   #proj {
     width: 28em;
     height: 6em;
-    background: rgb(77, 150, 158);
+    background: rgb(10, 168, 185);
     transition: all 0.4s ease;
     border-radius: 10px;
 
@@ -545,6 +548,66 @@ body {
 
   @media screen and (min-width: 600px)
   {
+    .cricket{
+      background-color: #24c9e6;
+      width: 600px;
+      height: 150px;
+      font-size: 35px;
+      border-radius: 20px;
+      font-family: 'Pacifico', cursive;
+      transition: all 0.4s ease;
+    
+    }
+    
+    .cricket:hover{
+      background-color: #65e2f8;
+      width: 620px;
+      height: 170px;
+      font-size: 35px;
+      border-radius: 20px;
+      mouseover-transition: all 1s ease;
+      mouseout-transition: all 1s ease;   
+    
+    }
+    #cricket{
+      width: 10em;
+    }
+    #headingname{
+      margin-top: -4.1em;
+      margin-left: 5em;
+    }
+    #intro{
+     margin-left: 23em;
+    }
+    #about{
+      margin-top: 14em;
+    }
+       #imagemain {
+         border-radius: 50%;
+         border: 1px solid rgb(0, 255, 200);
+         padding: 10px;
+         /* position: relative; */
+         top: -50px;
+         margin-left: -40em;
+         width: 28%;
+         height: 15%;
+             transition: all 0.4s ease;
+     }
+     
+   
+
+
+
+
+     #imagemain:hover {
+       border-radius: 50%;
+       border: 1px solid rgb(0, 255, 200);
+       padding: 10px;
+       /* position: relative; */
+       top: -50px;
+       width: 31.68%;
+       height: 20%;
+     }
     #project1{
       margin-top: 2em;
       margin-left: -36em;
