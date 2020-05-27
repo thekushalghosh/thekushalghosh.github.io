@@ -59,7 +59,7 @@ height: 20%;
     height: 554px;      
   }
 
-  #myBtntop {
+   #myBtntop {
     
     position: fixed;
     bottom: 20px;
@@ -67,9 +67,9 @@ height: 20%;
     right: 4%;
     width: 2em;
     height: 2em;
-    border-color: rgba(100, 100, 100, 0.5);
-    background-color: rgba(158, 158, 158, 0.5);
-    border-radius: 18px;
+    border-color: rgba(100, 100, 100, 0.68);
+    background-color: rgb(100,100,100,0.95);
+    border-radius: 95px;
     transition: all 0.2s ease;
 
 
@@ -80,13 +80,12 @@ height: 20%;
     bottom: 18px;
     float: right;
     right: 3.8%;
-    background-color: rgba(176, 176, 176, 0.5);
+    background-color: rgba(161, 161, 161, 0.95);
     width: 2.4em;
     height: 2.4em;
-    border-radius: 18px;
-
-    
-
+    border-radius: 95px;
+  
+  
 }
 
 .fa fa-arrow-circle-o-up{
@@ -624,6 +623,7 @@ height: 20%;
 
 
 
+    
      #imagemain:hover {
        border-radius: 50%;
        border: 1px solid rgb(0, 255, 200);
