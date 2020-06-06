@@ -1,3 +1,14 @@
+document.addEventListener('DOMContentLoaded', function () {
+  var checkbox = document.querySelector('input[type="checkbox"]');
+
+  checkbox.addEventListener('change', function () {
+    if (checkbox.checked) {
+      myFunctionModes();
+    } else {
+      myFunctionModes();
+        }
+  });
+});
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -48,6 +59,7 @@ windows.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -55,7 +67,92 @@ function myFunction() {
     } else {
       x.className = "topnav";
     }
+
   }
   $("a.projproj").click(function() {
     $("#NavIcon").dropdown("toggle");
  });
+
+
+
+
+  function myFunctionModes() {
+  var element = document.body;
+
+  element.classList.toggle("darkmode");
+
+
+  var element2 = document.querySelector(".headingname");
+  console.log(element2);
+  if (element2 == null){
+    var element2 = document.querySelector(".darkmodeid2");
+  }
+  if(element2.className.match('darkmodeid2')) {
+    element2.className = 'headingname';
+  }
+  else {
+    element2.className = 'darkmodeid2';
+  }
+
+
+  var element4 = document.getElementsByClassName("introduction");
+  var element4a = element4[0];
+  var element4b = element4[1];
+  if (element4.length == 0){
+    var element4 = document.getElementsByClassName("darkmodeid4");
+    var element4a = element4[0];
+    var element4b = element4[1];
+  }
+  console.log(element4a,element4b);
+  if(element4a.className.match('darkmodeid4')) {
+    element4a.className = 'introduction';
+  }
+  else {
+    element4a.className = 'darkmodeid4';
+
+  }
+  if(element4b.className.match('darkmodeid4')) {
+    element4b.className = 'introduction';
+  }
+  else {
+    element4b.className = 'darkmodeid4';
+
+  }
+
+
+
+  var element5 = document.querySelector(".projectname");
+  if (element5 == null){
+    var element5 = document.querySelector(".darkmodeid5");
+  }
+  if(element5.className.match('darkmodeid5')) {
+    element5.className = 'projectname';
+  }
+  else {
+    element5.className = 'darkmodeid5';
+  }
+
+
+  var element6 = document.querySelector(".aboutdetails");
+  if (element6 == null){
+    var element6 = document.querySelector(".darkmodeid6");
+  }
+  if(element6.className.match('darkmodeid6')) {
+    element6.className = 'aboutdetails';
+  }
+  else {
+    element6.className = 'darkmodeid6';
+  }
+
+  
+  var element8 = document.querySelector(".abouttitle");
+  if (element8 == null){
+    var element8 = document.querySelector(".darkmodeid8");
+  }
+  if(element8.className.match('darkmodeid8')) {
+    element8.className = 'abouttitle';
+  }
+  else {
+    element8.className = 'darkmodeid8';
+  }
+  }
