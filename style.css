@@ -4,6 +4,7 @@ html {
 }
 body {
     overflow-x: hidden;
+    overflow-y: hidden;  
     scroll-behavior: smooth;
     position: relative;
     background-image: 
@@ -71,7 +72,6 @@ body {
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 .slider:before {
   position: absolute;
   content: "";
