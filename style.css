@@ -14,7 +14,7 @@ body {
     url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg");
     background-position: 
       left 0 top 0px,
-      left 0 top 41em,
+      left 0 top 46em,
       left 0 top 84em,
       left 0 top 140em;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body {
      rgba(255,255,255,0.06);
     background-blend-mode: lighten;
     background-size:
-      100% 41em,
+      100% 46em,
       100% 54em,
       100% 68em,
       100% 86em;
@@ -38,12 +38,12 @@ body {
      rgba(255,255,255,0.59);
      background-position: 
       left 0 top 0px,
-      left 0 top 41em,
+      left 0 top 46em,
       left 0 top 84em,
       left 0 top 140em;
      background-blend-mode: lighten;
      background-size:
-       100% 41em,
+       100% 46em,
        100% 54em,
        100% 68em,
        100% 86em;
@@ -108,7 +108,7 @@ input:checked + .slider:before {
 }
  #imagemain {
   border-radius: 50%;
-  border: 1px solid rgb(44, 77, 77);
+  border: 50px solid rgb(44, 77, 77);
   padding: 10px;
   /* position: relative; */
   top: -50px;
@@ -663,6 +663,7 @@ height: 20%;
 
     body {
       overflow-x: hidden;
+      overflow-y: hidden;  
       scroll-behavior: smooth;
       position: relative;
       background-image: 
@@ -672,7 +673,7 @@ height: 20%;
       url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg");
       background-position: 
         left 0 top 0px,
-        left 0 top 40em,
+        left 0 top 46em,
         left 0 top 78em,
         left 0 top 140em;
       background-repeat: no-repeat;
@@ -680,7 +681,7 @@ height: 20%;
        rgba(255,255,255,0.06);
       background-blend-mode: lighten;
       background-size:
-        100% 40em,
+        100% 46em,
         100% 46em,
         100% 68em,
         100% 86em;
@@ -693,7 +694,7 @@ height: 20%;
     url("https://i.ytimg.com/vi/fKYeT3BIE6M/maxresdefault.jpg");
     background-position: 
         left 0 top 0px,
-        left 0 top 40em,
+        left 0 top 46em,
         left 0 top 78em,
         left 0 top 140em;
       background-repeat: no-repeat;
@@ -701,7 +702,7 @@ height: 20%;
        rgba(255,255,255,0.59);
       background-blend-mode: lighten;
       background-size:
-        100% 40em,
+        100% 46em,
         100% 46em,
         100% 68em,
         100% 86em;
@@ -808,7 +809,6 @@ height: 20%;
        height: 20%;
      }
 
-    
     
     
     
