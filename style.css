@@ -781,7 +781,7 @@ height: 20%;
     }
        #imagemain {
          border-radius: 50%;
-         border: 1px solid rgb(0, 255, 200);
+         border: 5px solid rgb(0, 255, 200);
          padding: 10px;
          /* position: relative; */
          top: -50px;
@@ -801,7 +801,7 @@ height: 20%;
 
      #imagemain:hover {
        border-radius: 50%;
-       border: 1px solid rgb(0, 255, 200);
+       border: 5px solid rgb(0, 255, 200);
        padding: 10px;
        /* position: relative; */
        top: -50px;
