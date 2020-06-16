@@ -61,10 +61,7 @@ function addListAfterKeypress(event) {
 enterButton.addEventListener("click",addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
-
 filter.addEventListener('keyup', filterItems);
-
-
 function filterItems(e){
   var text = e.target.value.toLowerCase();
   var items = itemList.getElementsByTagName('li');
