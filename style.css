@@ -116,10 +116,6 @@ input:checked + .slider:before {
   height: 15%;
       transition: all 0.4s ease;
 }
-
-.projectname{
-  font-size: 2.8em;
-}
 #imagemain:hover {
 border-radius: 50%;
 border: 5px solid rgb(44, 77, 77);
@@ -640,9 +636,11 @@ height: 20%;
   }
   
   .projectname{
+    font-size: 2.8em;
     color: rgb(255, 208, 0);
   }
   .darkmodeid5{
+    font-size: 2.8em;
     color: rgb(30, 22, 141);
   }
   .aboutdetails{
@@ -761,9 +759,11 @@ height: 20%;
       color: rgb(46, 87, 77);
     }
     .projectname{
+      font-size: 4.6em;
       color: rgb(255, 208, 0);
     }
     .darkmodeid5{
+      font-size: 4.6em;
       color: rgb(30, 22, 141);
     }
     .aboutdetails{
