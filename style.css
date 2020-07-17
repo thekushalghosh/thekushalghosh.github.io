@@ -29,10 +29,10 @@ body {
  }
  .darkmode {
   background-image: 
-    url("https://ak.picdn.net/shutterstock/videos/1008749414/thumb/1.jpg"),
-    url("https://sf.co.ua/13/07/wallpaper-2932481.jpg"),
-    url("https://i.ytimg.com/vi/fKYeT3BIE6M/maxresdefault.jpg"),
-    url("https://i.ytimg.com/vi/fKYeT3BIE6M/maxresdefault.jpg");
+  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modepaint.jpg"),
+  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/scenery.jpg"),
+  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modecode.jpg"),
+  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modecode.jpg");
     background-repeat: no-repeat;
     background-color:
      rgba(255,255,255,0.59);
@@ -714,7 +714,8 @@ height: 20%;
       font-size: 35px;
       border-radius: 20px;
       font-family: 'Pacifico', cursive;
-      transition: all 0.4s ease;
+      transition: 
+        all 0.4s ease;
     
     }
     
@@ -795,7 +796,6 @@ height: 20%;
          height: 15%;
              transition: all 0.4s ease;
      }
-     
    
 
 
