@@ -70,8 +70,7 @@ body {
   bottom: 0;
   background-color: rgb(224, 205, 28);
   -webkit-transition: .4s;
-  transition: 
-    .4s;
+  transition: .4s;
 }
 .slider:before {
   position: absolute;
@@ -623,38 +622,38 @@ height: 20%;
   }
   
   .headingname{
-    color:rgb(255, 230, 0);
+    color: rgb(44, 56, 95);
   }
 
   .darkmodeid2{
-    color: rgb(44, 56, 95);
+    color:rgb(255, 230, 0);
   }
   .introduction{
-    color: rgb(116, 255, 255);
+    color: rgb(54, 107, 95);
   }
   .darkmodeid4{
-    color: rgb(54, 107, 95);
+    color: rgb(116, 255, 255);
   }
   
   .projectname{
     font-size: 2.8em;
-    color: rgb(255, 208, 0);
+    color: rgb(30, 22, 141);
   }
   .darkmodeid5{
     font-size: 2.8em;
-    color: rgb(30, 22, 141);
+    color: rgb(255, 208, 0);
   }
   .aboutdetails{
+    color: rgb(8, 10, 14);
+  }
+    .darkmodeid6{
       color: rgb(250, 244, 224);
     }
-    .darkmodeid6{
-      color: rgb(8, 10, 14);
-    }
     .abouttitle{
-      color: yellow;
+      color: rgb(65, 55, 141);
     }
     .darkmodeid8{
-      color: rgb(65, 55, 141);
+      color: yellow;
     }
 
 
@@ -753,32 +752,40 @@ height: 20%;
     #intro{
      margin-left: 23em;
     }
+    .headingname{
+      color: rgb(44, 56, 95);
+    }
+  
+    .darkmodeid2{
+      color:rgb(255, 230, 0);
+    }
     .introduction{
-      color: rgb(116, 255, 255);
+      color: rgb(54, 107, 95);
     }
     .darkmodeid4{
-      color: rgb(46, 87, 77);
+      color: rgb(116, 255, 255);
     }
+    
     .projectname{
-      font-size: 4.6em;
-      color: rgb(255, 208, 0);
-    }
-    .darkmodeid5{
       font-size: 4.6em;
       color: rgb(30, 22, 141);
     }
-    .aboutdetails{
-      color: rgb(250, 244, 224);
+    .darkmodeid5{
+      font-size: 4.6em;
+      color: rgb(255, 208, 0);
     }
-    .darkmodeid6{
+    .aboutdetails{
       color: rgb(8, 10, 14);
     }
-    .abouttitle{
-      color: yellow;
-    }
-    .darkmodeid8{
-      color: rgb(65, 55, 141);
-    }
+      .darkmodeid6{
+        color: rgb(250, 244, 224);
+      }
+      .abouttitle{
+        color: rgb(65, 55, 141);
+      }
+      .darkmodeid8{
+        color: yellow;
+      }
     #about{
       margin-top: 14em;
     }
@@ -815,6 +822,8 @@ height: 20%;
        height: 20%;
      }
 
+     
+     
     #project1{
       margin-top: 2em;
       margin-left: -36em;
