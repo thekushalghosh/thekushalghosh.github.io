@@ -7,19 +7,18 @@ body {
     overflow-y: hidden;  
     scroll-behavior: smooth;
     position: relative;
-    background-image: 
-    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/paint.jpg"),
-    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/grass.jpg"),
-    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg"),
-    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg");
+    background-color: #29387e;
+      background-image: 
+      url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/paint.jpg"),
+      url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/grass.jpg"),
+      url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg"),
+      url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/code.jpg");
     background-position: 
       left 0 top 0px,
       left 0 top 46em,
       left 0 top 95em,
       left 0 top 140em;
     background-repeat: no-repeat;
-    background-color:
-     rgba(255,255,255,0.06);
     background-blend-mode: lighten;
     background-size:
       100% 46em,
@@ -28,14 +27,13 @@ body {
       100% 86em;
  }
  .darkmode {
+  background-color: rgb(230,216,216,0.86);    
   background-image: 
-  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modepaint.jpg"),
-  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/scenery.jpg"),
-  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modecode.jpg"),
-  url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modecode.jpg");
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modepaint.jpg"),
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/scenery.jpg"),
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modecode.jpg"),
+    url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modecode.jpg");
     background-repeat: no-repeat;
-    background-color:
-     rgba(255,255,255,0.59);
      background-position: 
       left 0 top 0px,
       left 0 top 46em,
@@ -666,6 +664,7 @@ height: 20%;
       overflow-y: hidden;  
       scroll-behavior: smooth;
       position: relative;
+      background-color: #439194;
       background-image: 
       url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/paint.jpg"),
       url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/grass.jpg"),
@@ -677,8 +676,6 @@ height: 20%;
         left 0 top 95em,
         left 0 top 177em;
       background-repeat: no-repeat;
-      background-color:
-       rgba(255,255,255,0.06);
       background-blend-mode: lighten;
       background-size:
         100% 46em,
@@ -687,6 +684,7 @@ height: 20%;
         100% 177em;
    }
    .darkmode {
+    background-color: rgb(230,216,216,0.86);    
     background-image: 
     url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/modepaint.jpg"),
     url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/scenery.jpg"),
@@ -698,8 +696,6 @@ height: 20%;
         left 0 top 95em,
         left 0 top 177em;
       background-repeat: no-repeat;
-      background-color:
-       rgba(255,255,255,0.59);
       background-blend-mode: lighten;
       background-size:
         100% 46em,
@@ -823,6 +819,10 @@ height: 20%;
      }
 
      
+     
+
+
+
      
     #project1{
       margin-top: 2em;
