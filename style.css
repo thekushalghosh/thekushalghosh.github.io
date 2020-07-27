@@ -788,6 +788,7 @@ height: 20%;
     .projectname{
   font-size: 4.6em;
 }
+
        #imagemain {
          border-radius: 50%;
          border: 5px solid rgb(0, 255, 200);
@@ -796,8 +797,7 @@ height: 20%;
          top: -50px;
          margin-left: -40em;
          width: 28%;
-         height: 15%;
-             transition: all 0.4s ease;
+         height: 15%;ransition: all 0.4s ease;
      }
      
    
@@ -848,4 +848,4 @@ height: 20%;
       margin-top: -8.2em;
       margin-left: 36em;
     }
-  }
+  }c
