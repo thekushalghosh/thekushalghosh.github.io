@@ -81,9 +81,9 @@ body {
   bottom: 4px;
   background-color: white;
   -webkit-transition: .4s;
-  transition: 
-    .4s;
+  transition: .4s;
 }
+
 input:checked + .slider {
   background-color: #2196F3;
 }
@@ -666,7 +666,7 @@ height: 20%;
       overflow-x: hidden;
       overflow-y: hidden;  
       scroll-behavior: smooth;
-      background-color: #439194;
+      background-color: #191364;
       background-image: 
       url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/paint.jpg"),
       url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/grass.jpg"),
