@@ -81,9 +81,9 @@ body {
   bottom: 4px;
   background-color: white;
   -webkit-transition: .4s;
-  transition: .4s;
+  transition: 
+    .4s;
 }
-
 input:checked + .slider {
   background-color: #2196F3;
 }
@@ -857,4 +857,4 @@ height: 20%;
       margin-top: -8.2em;
       margin-left: 36em;
     }
-  } 
+  }
