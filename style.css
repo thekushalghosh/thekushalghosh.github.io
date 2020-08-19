@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;  
     scroll-behavior: smooth;
-    position: relative;
     background-color: #29387e;
       background-image: 
       url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/paint.jpg"),
@@ -25,6 +24,7 @@ body {
       100% 54em,
       100% 68em,
       100% 86em;
+      z-index: -2;
  }
  .darkmode {
   background-color: rgb(230,216,216,0.86);    
@@ -45,12 +45,14 @@ body {
        100% 54em,
        100% 68em,
        100% 86em;
+    z-index: -2;
  }
  .switch {
-  position: relative;
+  position: relative ;
   display: inline-block;
   width: 60px;
   height: 34px;
+  z-index: 2;
 }
 
 .switch input { 
@@ -102,7 +104,7 @@ input:checked + .slider:before {
 }
 
 .slider.round:before {
-  border-radius: 50%;
+  border-radius: 34px;
 }
  #imagemain {
   border-radius: 50%;
@@ -132,7 +134,8 @@ height: 20%;
     position: absolute;
     bottom: 0px;
     width:100%;
-    height: 554px;      
+    height: 554px;
+    z-index: 2;
   }
 
   #myBtntop {
@@ -179,6 +182,7 @@ height: 20%;
     overflow: hidden;
     background-color: rgb(34, 38, 95);
     transition: all 0.4s ease;
+    z-index: 4;
     
   }
   
@@ -190,7 +194,6 @@ height: 20%;
     text-decoration: none;
     font-size: 17px;
     transition: all 0.4s ease;
-
     
   }
   
@@ -663,7 +666,6 @@ height: 20%;
       overflow-x: hidden;
       overflow-y: hidden;  
       scroll-behavior: smooth;
-      position: relative;
       background-color: #439194;
       background-image: 
       url("https://raw.githubusercontent.com/thekushalghosh/thekushalghosh.github.io/master/paint.jpg"),
@@ -682,6 +684,7 @@ height: 20%;
         100% 49em,
         100% 108em,
         100% 177em;
+      z-index: -1;
    }
    .darkmode {
     background-color: rgb(230,216,216,0.86);    
@@ -702,6 +705,10 @@ height: 20%;
         100% 49em,
         100% 108em,
         100% 177em;
+      z-index: -1;
+   }
+   #NavIcon{
+     display: none;
    }
     .cricket{
       background-color: #24c9e6;
@@ -824,6 +831,8 @@ height: 20%;
 
 
      
+
+     
     #project1{
       margin-top: 2em;
       margin-left: -36em;
@@ -848,4 +857,4 @@ height: 20%;
       margin-top: -8.2em;
       margin-left: 36em;
     }
-  }
+  } 
