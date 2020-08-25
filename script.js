@@ -155,4 +155,31 @@ function myFunction() {
   else {
     element8.className = 'darkmodeid8';
   }
+
+
+  var element10 = document.getElementsByClassName("modal-content");
+  var element10a = element10[0];
+  var element10b = element10[1];
+  if (element10.length == 0){
+    var element10 = document.getElementsByClassName("darkmodeid10");
+    var element10a = element10[0];
+    var element10b = element10[1];
   }
+
+  
+  console.log(element10);
+  if(element10a.className.match('darkmodeid10')) {
+    element10a.className = 'modal-content';
+  }
+  else {
+    element10a.className = 'darkmodeid10';
+
+  }
+  if(element10b.className.match('darkmodeid10')) {
+    element10b.className = 'modal-content';
+  }
+  else {
+    element10b.className = 'darkmodeid10';
+
+  }
+}
