@@ -9,7 +9,7 @@ function ncr(){
     var ncrn = parseInt(document.getElementById("ncrn").value)
     var ncrr = parseInt(document.getElementById("ncrr").value)
     var footer = document.getElementById("footer")
-    if ((0 <= ncrn && ncrn <= 200) && (0 <= ncrr && ncrn <= 200) && (ncrn >= ncrr)){
+    if ((0 <= ncrn && ncrn <= 100) && (0 <= ncrr && ncrn <= 100) && (ncrn >= ncrr)){
         footer.innerHTML = factorial(ncrn) / (factorial(ncrr) * factorial(ncrn - ncrr))
     }
 }
@@ -17,7 +17,7 @@ function npr(){
     var nprn = parseInt(document.getElementById("nprn").value)
     var nprr = parseInt(document.getElementById("nprr").value)
     var footer = document.getElementById("footer")
-    if ((0 <= nprn && nprn <= 200) && (0 <= nprr && nprr <= 200) && (nprn >= nprr)){
+    if ((0 <= nprn && nprn <= 100) && (0 <= nprr && nprr <= 100) && (nprn >= nprr)){
         footer.innerHTML = factorial(nprn) / factorial(nprn - nprr)
     }
 }
