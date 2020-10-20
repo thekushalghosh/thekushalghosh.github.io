@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Functions (thekushalghosh)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mathstyle.css">
+        <meta name="theme-color" content="rgb(225, 0, 255)">
+    </head>
+    <body>
+        <a title="HomePage" href="https://thekushalghosh.github.io">
+			<button class = "homebutton" style="color: white; font-size: 1.2em;font-family:fantasy;" id = "resume">thekushalghosh<br>(HomePage) </button>
+        </a>
+        <div id = "topic" style="font-size: 2em; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+            Math Functions
+        </div>
+        <div class="card" id="factorial">
+            <div class="inputs">
+                <u>Calculate Factorial</u>
+                <br>
+                <br>
+                Enter Number <br> <input id="n" type = "number" max="1000" placeholder="0 <= Number <= 1000">
+                <br>
+                <br>
+                <button type="submit" onclick="factorial_print()">Calculate</button>
+            </div>
+        </div>
+        <div class="card" id="ncr">
+            <div class="inputs">
+                <u>NcR Calculator</u>
+                <br>
+                <br>
+                Enter N <input id="ncrn" type = "number" max="200" placeholder="0 <= N <= 200">
+                <br>
+                <br>
+                Enter R <input id="ncrr" type = "number" max="200" placeholder="0 <= R <= 200">
+                <br>
+                <br>
+                <button type="submit" onclick="ncr()">Calculate</button>
+            </div>
+        </div>
+        <div class="card" id="npr">
+            <div class="inputs">
+                <u>NpR Calculator</u>
+                <br>
+                <br>
+                Enter N <input id="nprn" type = "number" max="200" placeholder="0 <= N <= 200">
+                <br>
+                <br>
+                Enter R <input id="nprr" type = "number" max="200" placeholder="0 <= R <= 200">
+                <br>
+                <br>
+                <button type="submit" onclick="npr()">Calculate</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="card" id="factors">
+            <div class="inputs">
+                <u>Calculate Factors</u>
+                <br>
+                <br>
+                Enter Number <br> <input id="nn" type = "number" max="1000000000000" placeholder="0 <= Number <= 10 ^ 12">
+                <br>
+                <br>
+                <button type="submit" onclick="factors()">Calculate</button>
+            </div>
+        </div>
+        <div class="card" id="prime_factors">
+            <div class="inputs">
+                <u>Calculate Prime Factors</u>
+                <br>
+                <br>
+                Enter Number <br> <input id="nnpf" type = "number" max="1000000000000000000000" placeholder="0 <= Number <= 10 ^ 21">
+                <br>
+                <br>
+                <button type="submit" onclick="prime_factors()">Calculate</button>
+            </div>
+        </div>
+        <div class="card" id="power">
+            <div class="inputs">
+                <u>Power Calculator ( a ^ b )</u>
+                <br>
+                <br>
+                Enter a <input id="a" type = "number" max="1000" placeholder="-1000 <= a <= 1000">
+                <br>
+                <br>
+                Enter b <input id="b" type = "number" max="100" placeholder="-100 <= b <= 100">
+                <br>
+                <br>
+                <button type="submit" onclick="power()">Calculate</button>
+            </div>
+        </div>
+        <br><br>
+        <br><br>
+        <div id = "footer">
+            Answer
+        </div>
+    </body>
+    <script src="mathscript.js"></script>
+</html>

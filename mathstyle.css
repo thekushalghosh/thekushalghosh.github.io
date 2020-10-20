@@ -1,0 +1,147 @@
+html,body{
+    background-image: linear-gradient(violet, blue);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+#topic{
+    margin-left: 2em;
+    margin-top: 0.95em;
+}
+#footer{
+    position: fixed;
+    height: 86px;
+    width: 100%;
+    margin-top: -49em;
+    overflow-x: auto;
+    display: flex;
+    white-space: nowrap;
+    background-color: rgb(255, 208, 151,1);
+    z-index: 5;
+}
+
+#factorial{
+}
+#ncr{
+    
+}
+#npr{
+    
+}
+#factors{
+    
+}
+#prime_factors{
+    
+}
+#power{
+    
+}
+
+
+
+.homebutton {
+	height: 50px;
+    background-color: rgb(75, 138, 59);
+	color: white;
+	border-radius: 10px;
+  }
+.homebutton:hover{
+    background-color: rgb(96, 172, 86);
+    color: white;
+  }
+
+.card{
+    background-image: linear-gradient(red, violet);
+    color: white;
+    font-weight: bold;
+    height: 10em;
+    width: 24em;
+    border-radius: 10%;
+    box-shadow: 10px;
+}
+.card:hover{
+    height: 10.6em;
+    width: 24.8em;
+    transition: 0.5s;
+}
+
+
+.inputs{
+    margin-top: 10%;
+    text-align: center;
+}
+@media only screen and (min-width: 600px){
+    html,body{
+        background-image: linear-gradient(violet, blue);
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    #topic{
+        margin-top: -1.4em;
+        text-align: center;
+    }
+    #footer{
+        height: 86px;
+        width: 100%;
+        margin-top: -0.8em;
+        margin-left: -0.4em;
+        overflow-x: auto;
+        display: flex;
+        white-space: nowrap;
+        background-color: bisque;
+        z-index: 2;
+    }
+    #factorial{
+        margin-left: 5em;
+    }
+    #ncr{
+        margin-top: -12em;
+        margin-left: 33em;
+    }
+    #npr{
+        margin-top: -12em;
+        margin-left: 61em;
+    }
+    #factors{
+        margin-left: 5em;
+    }
+    #prime_factors{
+        margin-top: -12em;
+        margin-left: 33em;
+    }
+    #power{
+        margin-top: -12em;
+        margin-left: 61em;
+    }
+
+
+    .homebutton {
+        height: 50px;
+        background-color: rgb(75, 138, 59);
+        color: white;
+        border-radius: 10px;
+      }
+    .homebutton:hover{
+        background-color: rgb(96, 172, 86);
+        color: white;
+      }
+    .card{
+        background-image: linear-gradient(red, violet);
+        color: white;
+        font-weight: bold;
+        height: 10em;
+        width: 18em;
+        border-radius: 10%;
+        box-shadow: 10px;
+    }
+    .card:hover{
+        height: 10.6em;
+        width: 18.5em;
+        transition: 0.5s;
+    }
+
+    .inputs{
+        margin-top: 10%;
+        text-align: center;
+    }
+}
