@@ -1,10 +1,10 @@
 html{
-    overflow-x: scroll;
-    scroll-behavior: smooth;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
-    background-image: url("https://raw.githubusercontent.com/AditiAparna/thekushalghosh.github.io/master/maths.jpg");
+    background-image: url("https://raw.githubusercontent.com/
+	    AditiAparna/thekushalghosh.github.io/master/maths.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -18,8 +18,9 @@ body{
     text-shadow: 2px 2px 2px whitesmoke;
     margin-top: -1.4em;
     text-align: center;
-    font-size: 3em;
+    font-size: 3em;	
 }
+
 #footer{
     position: fixed;
     bottom: 0;
@@ -33,11 +34,11 @@ body{
     color: red;
     font-weight: bold;
     font-size: 30px;
-    background-image:url("https://raw.githubusercontent.com/AditiAparna/thekushalghosh.github.io/master/footer.png");
+    background-image:url("https://raw.githubusercontent.com/
+	    AditiAparna/thekushalghosh.github.io/master/footer.png");
     background-size: cover;
     z-index: 1;
 }
-
 .homebutton {
     height: 50px;
     width: 150px;
@@ -77,6 +78,7 @@ body{
     margin-top: 10%;
     text-align: center;
 }
+
 .calculate{
     border-radius: 10%;
     background-image: url("https://raw.githubusercontent.com/AditiAparna/thekushalghosh.github.io/master/button.png");
@@ -87,10 +89,11 @@ body{
     transform: scale(1.06);
     font-weight: bold;
 }
+
+
+
 .bg-pr{background-color:#CCEABB!important}
-
 @media only screen and (max-width:830px){
-
     #topic{
         color: white;
         padding: 10px;
@@ -113,4 +116,7 @@ body{
         font-size: 35px;
         padding-bottom: 10px;
     }
+	
+	
+	
 }
