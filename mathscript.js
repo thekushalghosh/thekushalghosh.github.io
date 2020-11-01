@@ -4,6 +4,10 @@ function factorial_print(){
         var footer = document.getElementById("footer")
         footer.innerHTML = factorial(n)
     }
+    else{
+        var footer = document.getElementById("footer")
+        footer.innerHTML = "Invalid Input"
+    }
 }
 function ncr(){
     var ncrn = parseInt(document.getElementById("ncrn").value)
@@ -12,6 +16,10 @@ function ncr(){
     if ((0 <= ncrn && ncrn <= 100) && (0 <= ncrr && ncrn <= 100) && (ncrn >= ncrr)){
         footer.innerHTML = factorial(ncrn) / (factorial(ncrr) * factorial(ncrn - ncrr))
     }
+    else{
+        var footer = document.getElementById("footer")
+        footer.innerHTML = "Invalid Input"
+    }
 }
 function npr(){
     var nprn = parseInt(document.getElementById("nprn").value)
@@ -19,6 +27,10 @@ function npr(){
     var footer = document.getElementById("footer")
     if ((0 <= nprn && nprn <= 100) && (0 <= nprr && nprr <= 100) && (nprn >= nprr)){
         footer.innerHTML = factorial(nprn) / factorial(nprn - nprr)
+    }
+    else{
+        var footer = document.getElementById("footer")
+        footer.innerHTML = "Invalid Input"
     }
 }
 function factors(){
@@ -35,6 +47,10 @@ function factors(){
         }
         var footer = document.getElementById("footer")
         footer.innerHTML = a.sort(function(a,b){return(a - b)})
+    }
+    else{
+        var footer = document.getElementById("footer")
+        footer.innerHTML = "Invalid Input"
     }
 }
 function prime_factors(){
@@ -57,6 +73,12 @@ function prime_factors(){
         var footer = document.getElementById("footer")
         footer.innerHTML = a.sort(function(a,b){return(a - b)})
     }
+
+    
+    else{
+        var footer = document.getElementById("footer")
+        footer.innerHTML = "Invalid Input"
+    }
 }
 function power(){
     var a = parseInt(document.getElementById("a").value)
@@ -64,6 +86,10 @@ function power(){
     if ((-1000 <= a && a <= 1000) && (-100 <= b && b <= 100)){
         var footer = document.getElementById("footer")
         footer.innerHTML = Math.pow(a,b)
+    }
+    else{
+        var footer = document.getElementById("footer")
+        footer.innerHTML = "Invalid Input"
     }
 }
 function factorial(userInt)
@@ -91,5 +117,12 @@ function factorial(userInt)
 
 
 
-  return result.reverse().join('')
+
+
+
+
+
+
+  
+  return(result.reverse().join(''))
 }
